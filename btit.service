@@ -1,0 +1,8 @@
+[Unit]
+Description=Bluetooth Inactivity Timer
+
+[Service]
+ExecStart=/usr/local/bin/btit
+
+[Install]
+WantedBy=multi-user.target
